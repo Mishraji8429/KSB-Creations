@@ -2,9 +2,9 @@ const products = [
 
 {
 name:"Premium Kurti",
-price:"₹499",
+price:"₹239",
 image:"images/kurti.jpg",
-link:"https://www.meesho.com/"
+link:"https://www.meesho.com/s/p/gqfkha?utm_source=s_cc"
 },
 
 {
