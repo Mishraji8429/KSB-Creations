@@ -414,3 +414,33 @@ transform:scale(1.1);
 width:38px;
 height:38px;
 }
+.instagram{
+padding:80px 8%;
+text-align:center;
+background:#fafafa;
+}
+
+.instagram h2{
+font-size:36px;
+margin-bottom:15px;
+}
+
+.instagram p{
+color:#666;
+margin-bottom:30px;
+}
+
+.insta-btn{
+display:inline-block;
+padding:15px 35px;
+background:linear-gradient(45deg,#833AB4,#E1306C,#F77737);
+color:#fff;
+font-weight:600;
+border-radius:40px;
+transition:.3s;
+}
+
+.insta-btn:hover{
+transform:translateY(-5px);
+box-shadow:0 10px 20px rgba(0,0,0,.2);
+}
