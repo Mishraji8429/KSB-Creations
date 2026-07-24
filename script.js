@@ -46,3 +46,18 @@ container.innerHTML += `
 });
 
 }
+const heroImages = [
+  "images/hero1.jpg",
+  "images/hero2.jpg",
+  "images/hero3.jpg",
+  "images/hero4.jpg"
+];
+
+let current = 0;
+
+const hero = document.getElementById("hero-image");
+
+setInterval(() => {
+  current = (current + 1) % heroImages.length;
+  hero.src = heroImages[current];
+}, 4000);
