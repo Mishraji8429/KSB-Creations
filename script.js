@@ -3,11 +3,13 @@ window.addEventListener("load", function () {
     if (loader) {
         loader.style.display = "none";
     }
-});const container = document.getElementById("product-container");
+});
 
-if(container){
+const container = document.getElementById("product-container");
 
-products.forEach(product=>{
+if (container) {
+
+products.forEach(product => {
 
 container.innerHTML += `
 
